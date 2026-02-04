@@ -23,9 +23,9 @@ After each invocation that discovers new use cases, append to (or create) `findi
 ```markdown
 # Findings - YYYY-MM-DD
 
-## [Category]
+## HH:MM PST
 
-### [Title]
+### [Title] — [Category]
 - **Source**: [URL or @handle]
 - **Platform**: [WhatsApp/Telegram/Discord/etc.]
 - **Description**: Brief description of the use case
