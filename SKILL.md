@@ -9,7 +9,34 @@ A curated reference of real-world OpenClaw use cases gathered from Twitter/X, Re
 
 ## How to Use
 
-When My Lord asks about use cases or wants inspiration, reference this catalog. Each entry includes a brief description and source when available.
+When My Lord asks about use cases or wants inspiration:
+
+1. Reference the catalog below and `findings/` directory for past discoveries
+2. Search the web for fresh examples (Twitter/X, Reddit, Discord, blogs)
+3. Save new findings to `findings/YYYY-MM-DD.md` with structured format
+4. Git commit and push to `liaosvcaf/openclaw-skill-usecases`
+
+### Saving Findings
+
+After each invocation that discovers new use cases, append to (or create) `findings/YYYY-MM-DD.md`:
+
+```markdown
+# Findings - YYYY-MM-DD
+
+## [Category]
+
+### [Title]
+- **Source**: [URL or @handle]
+- **Platform**: [WhatsApp/Telegram/Discord/etc.]
+- **Description**: Brief description of the use case
+- **Why interesting**: What makes this notable
+```
+
+Then commit and push:
+```bash
+cd /path/to/skills/openclaw-usecases
+git add findings/ && git commit -m "findings: YYYY-MM-DD" && git push
+```
 
 ---
 
