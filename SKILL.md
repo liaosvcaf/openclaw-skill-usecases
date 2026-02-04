@@ -16,20 +16,25 @@ When My Lord asks about use cases or wants inspiration:
 3. Save new findings to `findings/YYYY-MM-DD.md` with structured format
 4. Git commit and push to `liaosvcaf/openclaw-skill-usecases`
 
-### Saving Findings
+### Saving Findings (Bilingual)
 
-After each invocation that discovers new use cases, append to (or create) `findings/YYYY-MM-DD.md`:
+After each invocation that discovers new use cases, append to (or create) `findings/YYYY-MM-DD.md`.
+**All findings MUST be bilingual** — write both Chinese and English in the same entry. Chinese first, then English. This makes it easier for My Lord to read in his native language while keeping English for reference and searchability.
 
 ```markdown
-# Findings - YYYY-MM-DD
+# Findings / 发现 - YYYY-MM-DD
 
 ## HH:MM PST
 
-### [Title] — [Category]
-- **Source**: [URL or @handle]
-- **Platform**: [WhatsApp/Telegram/Discord/etc.]
-- **Description**: Brief description of the use case
-- **Why interesting**: What makes this notable
+### [中文标题] / [English Title] — [Category/类别]
+- **来源/Source**: [URL or @handle]
+- **平台/Platform**: [WhatsApp/Telegram/Discord/etc.]
+- **描述/Description**:
+  - 🇨🇳 中文描述
+  - 🇺🇸 English description
+- **亮点/Why interesting**:
+  - 🇨🇳 中文说明为什么有趣
+  - 🇺🇸 English explanation of why it's notable
 ```
 
 Then commit and push:
